@@ -1,0 +1,475 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 800px;
+  background-image: url(https://preview.colorlib.com/theme/justice/images/hero_bg.jpg.webp);
+  background-size: cover;
+}
+.main header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+.main header .containerHeader {
+  width: 1180px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main header .containerHeader .headerLogo {
+  font-weight: 900;
+  font-size: 24px;
+  font-family: Rubik, sans-serif;
+}
+.main header .containerHeader .headerLogo span {
+  font-size: 35px;
+  color: #b49c73;
+}
+.main header .containerHeader .navbar ul {
+  list-style: none;
+  display: flex;
+}
+.main header .containerHeader .navbar ul li {
+  padding: 10px 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.main header .containerHeader .navbar ul li:hover {
+  color: black;
+}
+.main .mainText {
+  width: 1180px;
+  height: 800px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.main .mainTextWapper {
+  width: 400px;
+  height: auto;
+}
+.main .mainTextWapper span {
+  color: #b49c73;
+}
+.main .mainTextWapper h2 {
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+.main .mainTextWapper p {
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  padding-left: 1rem;
+}
+.main .mainTextWapper button {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #b49c73;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+  border-radius: 50px;
+  color: white;
+}
+
+.containerInfo {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #37373f;
+  color: white;
+}
+.containerInfoAll {
+  width: 1180px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.containerInfoAll .containerInfoItem1 {
+  width: 500px;
+}
+.containerInfoAll .containerInfoItem1 h3 {
+  font-family: Rubik, sans-serif;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+.containerInfoAll .containerInfoItem1 p {
+  padding-left: 2rem;
+  color: #b2b2b8;
+  font-size: 20px;
+}
+.containerInfoAll .containerInfoItem1 span {
+  color: #b49c73;
+  font-family: sans-serif;
+}
+.containerInfoAll .containerInfoItem1 button {
+  padding: 1rem;
+  background-color: #b49c73;
+  text-transform: uppercase;
+  border: none;
+  font-family: serif;
+  border-radius: 50px;
+  color: white;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.containerInfoAll .containerInfoItem2 {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+}
+.containerInfoAll .containerInfoItem2 .card {
+  height: 100px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.containerInfoAll .containerInfoItem2 .card .icons {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.containerInfoAll .containerInfoItem2 .card .icons:hover {
+  opacity: 0.5;
+}
+.containerInfoAll .containerInfoItem2 .card .iconsText h4 {
+  color: #b49c73;
+  margin-bottom: 0.5rem;
+}
+.containerInfoAll .containerInfoItem2 .card .iconsText p {
+  color: #b2b2b8;
+}
+
+.containerServices {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #37373f;
+}
+.containerServicesAll {
+  width: 1180px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+.containerServicesAll .containerServicesTitle {
+  width: 500px;
+  height: 250px;
+  margin-top: 1.5rem;
+}
+.containerServicesAll .containerServicesTitle h4 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+.containerServicesAll .containerServicesTitle h4 span {
+  color: #b49c73;
+  font-family: serif;
+}
+.containerServicesAll .containerServicesInfo {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.containerServicesAll .containerServicesInfoItem1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 250px;
+}
+.containerServicesAll .containerServicesInfo span {
+  color: white;
+}
+.containerServicesAll .containerServicesInfo h4 {
+  font-size: 6rem;
+  color: #b49c73;
+  margin-bottom: 0.5rem;
+}
+.containerServicesAll .containerServicesInfo h5 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+.containerServicesAll .containerServicesInfo p {
+  color: #b2b2b8;
+}
+
+.containerClients {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(45, 45, 52);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.containerClients .containerClientsTitle {
+  font-size: 3rem;
+  display: flex;
+  margin: 0 auto;
+  font-family: serif;
+  width: 1180px;
+  height: 60px;
+}
+.containerClients .containerClientsTitle span {
+  color: #b49c73;
+}
+.containerClientsAll {
+  width: 1180px;
+  height: 400px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+.containerClientsAll .containerClientsItems {
+  width: 350px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+}
+.containerClientsAll .containerClientsItems p {
+  padding: 2rem 1.5rem;
+  font-size: 20px;
+}
+.containerClientsAll .containerClientsItems .ceoInfo {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+  width: 350px;
+  height: 90px;
+  background-color: rgb(45, 45, 52);
+}
+.containerClientsAll .containerClientsItems .ceoInfo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.containerClientsAll .containerClientsItems .ceoInfo strong {
+  color: white;
+}
+.containerClientsAll .containerClientsItems .ceoInfo span {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.containerExpertise {
+  width: 100%;
+  height: 700px;
+  background-color: #37373f;
+  display: flex;
+  align-items: center;
+}
+.containerExpertiseAll {
+  width: 1180px;
+  height: 500px;
+  margin: 0 auto;
+}
+.containerExpertiseAll .containerExpertiseTitle {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.containerExpertiseAll .containerExpertiseTitle span {
+  color: #b49c73;
+}
+.containerExpertiseAll .containerExpertiseCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.containerExpertiseAll .containerExpertiseCards .containerExpertiseCard1 {
+  width: 270px;
+  height: 350px;
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.containerExpertiseAll .containerExpertiseCards .containerExpertiseCard1 .logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #b49c73;
+}
+.containerExpertiseAll .containerExpertiseCards .containerExpertiseCard1 h4 {
+  color: #b49c73;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.containerExpertiseAll .containerExpertiseCards .containerExpertiseCard1 p {
+  color: rgb(128, 128, 128);
+  font-size: 17px;
+  width: 180px;
+}
+.containerExpertiseAll .containerExpertiseCards .containerExpertiseCard1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.containerFooter {
+  width: 100%;
+  height: 400px;
+  background-color: #37373f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerFooterAll {
+  width: 1180px;
+  height: 300px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.containerFooterAll .containerFooterItem1 {
+  width: 250px;
+}
+.containerFooterAll .containerFooterItem1 ul {
+  color: #b49c73;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1rem;
+}
+.containerFooterAll .containerFooterItem1 h2 {
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  color: rgb(178, 178, 184);
+}
+.containerFooterAll .containerFooterItem1 li {
+  font-size: 17px;
+}
+.containerFooterAll .containerFooterItem1 li:hover {
+  text-decoration: underline;
+}
+.containerFooterAll .containerFooterItem2 {
+  width: 250px;
+}
+.containerFooterAll .containerFooterItem2 h2 {
+  margin-bottom: 1rem;
+  font-size: 17px;
+  font-weight: normal;
+  color: rgb(178, 178, 184);
+}
+.containerFooterAll .containerFooterItem2 ul {
+  color: #b49c73;
+  list-style: none;
+}
+.containerFooterAll .containerFooterItem2 li {
+  margin-bottom: 1rem;
+  font-size: 17px;
+}
+.containerFooterAll .containerFooterItem2 li:hover {
+  text-decoration: underline;
+}
+.containerFooterAll .containerFooterItem3 {
+  width: 250px;
+}
+.containerFooterAll .containerFooterItem3 h2 {
+  margin-bottom: 1rem;
+  font-size: 17px;
+  font-weight: normal;
+  color: rgb(178, 178, 184);
+}
+.containerFooterAll .containerFooterItem3 ul {
+  color: #b49c73;
+  list-style: none;
+}
+.containerFooterAll .containerFooterItem3 li {
+  margin-bottom: 1rem;
+  font-size: 17px;
+}
+.containerFooterAll .containerFooterItem3 li:hover {
+  text-decoration: underline;
+}
+.containerFooterAll .containerFooterItem4 h2 {
+  margin-bottom: 1rem;
+  font-size: 17px;
+  font-weight: normal;
+  color: rgb(178, 178, 184);
+}
+.containerFooterAll .containerFooterItem4 p {
+  width: 200px;
+  margin-bottom: 1.2rem;
+  font-size: 17px;
+}
+.containerFooterAll .containerFooterItem4 ul {
+  color: #b49c73;
+  list-style: none;
+}
+.containerFooterAll .containerFooterItem4 ul li {
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+.containerFooterAll .containerFooterItem4 ul li:hover {
+  text-decoration: underline;
+}
+.containerFooterAll .containerFooterItem4 .iconsFooter {
+  display: flex;
+  gap: 5px;
+}
+.containerFooterAll .containerFooterItem4 .iconsFooter div {
+  width: 30px;
+  height: 30px;
+  background-color: #b49c73;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.containerFooter2 {
+  width: 100%;
+  height: 50px;
+  background-color: #37373f;
+  color: rgb(178, 178, 184);
+}
+.containerFooter2 .footercoyright {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 0.5rem;
+}
+.containerFooter2 .footercoyright a {
+  border-left: 1px solid rgb(178, 178, 184);
+  padding-left: 0.5rem;
+}
+.containerFooter2 .footercoyright span {
+  color: #b49c73;
+}
+.containerFooter2 .footercoyright i {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
